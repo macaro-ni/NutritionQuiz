@@ -132,6 +132,16 @@
                                     <action selector="toTopButtonAction:" destination="m24-SS-SFY" eventType="touchUpInside" id="GOe-mC-PiQ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4q8-2M-AzF">
+                                <rect key="frame" x="65" y="259" width="263" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="結果をシェアする"/>
+                                <connections>
+                                    <action selector="shareButtonAction:" destination="m24-SS-SFY" eventType="touchUpInside" id="JMI-ik-G7v"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cVp-J3-oez"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -142,7 +152,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eg3-yR-C1W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2045" y="15"/>
+            <point key="canvasLocation" x="2043.5114503816792" y="14.788732394366198"/>
         </scene>
         <!--Select Genre View Controller-->
         <scene sceneID="88s-Uj-K3N">
