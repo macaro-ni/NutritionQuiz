@@ -1,27 +1,31 @@
 //
-//  ScoreViewViewController.swift
+//  SelectGenreViewController.swift
 //  NutritionQuiz
 //
-//  Created by Moe on 2023/08/15.
+//  Created by 墨田萌 on 2023/08/15.
 //
 
 import UIKit
 
-class ScoreViewViewController: UIViewController {
-    @IBOutlet weak var scoreLabel: UILabel!
+class SelectGenreViewController: UIViewController {
     
-    var correct = 0
+    var selectTag = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        scoreLabel.text = "\(correct)問正解！"
 
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func toTopButtonAction(_ sender: Any) {
-        self.presentingViewController?.presentingViewController?.presentingViewController?.dismiss(animated: true)
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let quizVC = segue.destination as! QuizViewController
+        quizVC.selectGenle = selectTag
+    }
+    
+    @IBAction func genreButtonAction(sender: UIButton){
+        print(sender.tag)
+        selectTag = sender.tag
+        performSegue(withIdentifier: "toQuizVC", sender: nil)
     }
     
     /*

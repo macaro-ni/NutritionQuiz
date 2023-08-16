@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  NutritionQuiz
 //
-//  Created by 墨田萌 on 2023/08/15.
+//  Created by Moe on 2023/08/15.
 //
 
 import UIKit

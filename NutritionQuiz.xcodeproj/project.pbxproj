@@ -15,9 +15,12 @@
 		DD01184F2A8B167400A2E037 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD01184D2A8B167400A2E037 /* LaunchScreen.storyboard */; };
 		DD0118572A8B186500A2E037 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0118562A8B186500A2E037 /* QuizViewController.swift */; };
 		DD0118592A8B190000A2E037 /* ScoreViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0118582A8B190000A2E037 /* ScoreViewViewController.swift */; };
-		DD01185B2A8B1E4100A2E037 /* quiz.csv in Resources */ = {isa = PBXBuildFile; fileRef = DD01185A2A8B1E4000A2E037 /* quiz.csv */; };
+		DD01185B2A8B1E4100A2E037 /* quiz2.csv in Resources */ = {isa = PBXBuildFile; fileRef = DD01185A2A8B1E4000A2E037 /* quiz2.csv */; };
 		DD01185F2A8B623700A2E037 /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = DD01185D2A8B623700A2E037 /* correct.png */; };
 		DD0118602A8B623700A2E037 /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = DD01185E2A8B623700A2E037 /* incorrect.png */; };
+		DD0118622A8B868100A2E037 /* SelectGenreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0118612A8B868100A2E037 /* SelectGenreViewController.swift */; };
+		DD0118642A8C86F200A2E037 /* quiz1.csv in Resources */ = {isa = PBXBuildFile; fileRef = DD0118632A8C86F200A2E037 /* quiz1.csv */; };
+		DD0118682A8C8B1200A2E037 /* quiz3.csv in Resources */ = {isa = PBXBuildFile; fileRef = DD0118672A8C8B1200A2E037 /* quiz3.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +34,12 @@
 		DD0118502A8B167400A2E037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD0118562A8B186500A2E037 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuizViewController.swift; path = "../../../../Library/Autosave Information/QuizViewController.swift"; sourceTree = "<group>"; };
 		DD0118582A8B190000A2E037 /* ScoreViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewViewController.swift; sourceTree = "<group>"; };
-		DD01185A2A8B1E4000A2E037 /* quiz.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz.csv; sourceTree = "<group>"; };
+		DD01185A2A8B1E4000A2E037 /* quiz2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz2.csv; sourceTree = "<group>"; };
 		DD01185D2A8B623700A2E037 /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
 		DD01185E2A8B623700A2E037 /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
+		DD0118612A8B868100A2E037 /* SelectGenreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectGenreViewController.swift; sourceTree = "<group>"; };
+		DD0118632A8C86F200A2E037 /* quiz1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz1.csv; sourceTree = "<group>"; };
+		DD0118672A8C8B1200A2E037 /* quiz3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz3.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +76,10 @@
 				DD0118442A8B167300A2E037 /* SceneDelegate.swift */,
 				DD0118462A8B167300A2E037 /* ViewController.swift */,
 				DD0118482A8B167300A2E037 /* Main.storyboard */,
-				DD01185A2A8B1E4000A2E037 /* quiz.csv */,
+				DD0118612A8B868100A2E037 /* SelectGenreViewController.swift */,
+				DD0118632A8C86F200A2E037 /* quiz1.csv */,
+				DD01185A2A8B1E4000A2E037 /* quiz2.csv */,
+				DD0118672A8C8B1200A2E037 /* quiz3.csv */,
 				DD0118582A8B190000A2E037 /* ScoreViewViewController.swift */,
 				DD0118562A8B186500A2E037 /* QuizViewController.swift */,
 				DD01185C2A8B623700A2E037 /* image */,
@@ -153,7 +162,9 @@
 				DD01184F2A8B167400A2E037 /* LaunchScreen.storyboard in Resources */,
 				DD01184C2A8B167400A2E037 /* Assets.xcassets in Resources */,
 				DD01184A2A8B167300A2E037 /* Main.storyboard in Resources */,
-				DD01185B2A8B1E4100A2E037 /* quiz.csv in Resources */,
+				DD01185B2A8B1E4100A2E037 /* quiz2.csv in Resources */,
+				DD0118642A8C86F200A2E037 /* quiz1.csv in Resources */,
+				DD0118682A8C8B1200A2E037 /* quiz3.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +177,7 @@
 			files = (
 				DD0118592A8B190000A2E037 /* ScoreViewViewController.swift in Sources */,
 				DD0118472A8B167300A2E037 /* ViewController.swift in Sources */,
+				DD0118622A8B868100A2E037 /* SelectGenreViewController.swift in Sources */,
 				DD0118432A8B167300A2E037 /* AppDelegate.swift in Sources */,
 				DD0118452A8B167300A2E037 /* SceneDelegate.swift in Sources */,
 				DD0118572A8B186500A2E037 /* QuizViewController.swift in Sources */,
