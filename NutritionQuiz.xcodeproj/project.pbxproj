@@ -22,6 +22,7 @@
 		DD0118622A8B868100A2E037 /* SelectGenreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0118612A8B868100A2E037 /* SelectGenreViewController.swift */; };
 		DD0118642A8C86F200A2E037 /* quiz1.csv in Resources */ = {isa = PBXBuildFile; fileRef = DD0118632A8C86F200A2E037 /* quiz1.csv */; };
 		DD0118682A8C8B1200A2E037 /* quiz3.csv in Resources */ = {isa = PBXBuildFile; fileRef = DD0118672A8C8B1200A2E037 /* quiz3.csv */; };
+		DD01186B2A8E7F3900A2E037 /* 無題54_20230818005535.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD01186A2A8E7F3900A2E037 /* 無題54_20230818005535.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		DD0118612A8B868100A2E037 /* SelectGenreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectGenreViewController.swift; sourceTree = "<group>"; };
 		DD0118632A8C86F200A2E037 /* quiz1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz1.csv; sourceTree = "<group>"; };
 		DD0118672A8C8B1200A2E037 /* quiz3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz3.csv; sourceTree = "<group>"; };
+		DD01186A2A8E7F3900A2E037 /* 無題54_20230818005535.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "無題54_20230818005535.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +66,6 @@
 				01FBF09EAE64ECEF8EC7FBC8 /* Pods-NutritionQuiz.debug.xcconfig */,
 				A84583BB81B4F0990AAD19E5 /* Pods-NutritionQuiz.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -99,6 +100,7 @@
 				DD0118672A8C8B1200A2E037 /* quiz3.csv */,
 				DD0118582A8B190000A2E037 /* ScoreViewViewController.swift */,
 				DD0118562A8B186500A2E037 /* QuizViewController.swift */,
+				DD0118692A8E7F3900A2E037 /* QuizImage */,
 				DD01185C2A8B623700A2E037 /* image */,
 				DD01184B2A8B167400A2E037 /* Assets.xcassets */,
 				DD01184D2A8B167400A2E037 /* LaunchScreen.storyboard */,
@@ -114,6 +116,14 @@
 				DD01185E2A8B623700A2E037 /* incorrect.png */,
 			);
 			path = image;
+			sourceTree = "<group>";
+		};
+		DD0118692A8E7F3900A2E037 /* QuizImage */ = {
+			isa = PBXGroup;
+			children = (
+				DD01186A2A8E7F3900A2E037 /* 無題54_20230818005535.jpg */,
+			);
+			path = QuizImage;
 			sourceTree = "<group>";
 		};
 		E9F04BB20A20A92BDF2DED40 /* Frameworks */ = {
@@ -187,6 +197,7 @@
 				DD01185F2A8B623700A2E037 /* correct.png in Resources */,
 				DD0118602A8B623700A2E037 /* incorrect.png in Resources */,
 				DD01184F2A8B167400A2E037 /* LaunchScreen.storyboard in Resources */,
+				DD01186B2A8E7F3900A2E037 /* 無題54_20230818005535.jpg in Resources */,
 				DD01184C2A8B167400A2E037 /* Assets.xcassets in Resources */,
 				DD01184A2A8B167300A2E037 /* Main.storyboard in Resources */,
 				DD01185B2A8B1E4100A2E037 /* quiz2.csv in Resources */,
@@ -403,8 +414,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -432,8 +443,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
