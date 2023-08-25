@@ -66,13 +66,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="efs-ue-xUK">
-                                <rect key="frame" x="161" y="80" width="71" height="36"/>
+                                <rect key="frame" x="152" y="80" width="71" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" red="0.3705644011" green="0.33163394419999997" blue="0.30825664349999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vE9-Ze-wZ4">
-                                <rect key="frame" x="20" y="146" width="353" height="230"/>
+                                <rect key="frame" x="20" y="146" width="335" height="230"/>
                                 <color key="backgroundColor" red="0.97450822591781616" green="0.9628031849861145" blue="0.91822969913482666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="230" id="932-CA-9Da"/>
@@ -82,18 +82,18 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4Ut-qJ-3aP">
-                                <rect key="frame" x="20" y="71" width="353" height="374"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Ut-qJ-3aP">
+                                <rect key="frame" x="20" y="50" width="335" height="365"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="374" id="0hY-GT-nVx"/>
-                                    <constraint firstAttribute="width" constant="353" id="M7F-1Q-boy"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="353" id="0hY-GT-nVx"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="353" id="M7F-1Q-boy"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="cDP-pg-DAB">
-                                <rect key="frame" x="40" y="426" width="313" height="181"/>
+                                <rect key="frame" x="40" y="426" width="295" height="181"/>
                                 <subviews>
                                     <button opaque="NO" alpha="0.80000000000000004" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="waU-Zz-mwo">
-                                        <rect key="frame" x="0.0" y="0.0" width="313" height="75.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="295" height="75.5"/>
                                         <color key="backgroundColor" red="0.3705644011" green="0.33163394419999997" blue="0.30825664349999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -105,7 +105,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.80000000000000004" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3EE-2Z-pf7">
-                                        <rect key="frame" x="0.0" y="105.5" width="313" height="75.5"/>
+                                        <rect key="frame" x="0.0" y="105.5" width="295" height="75.5"/>
                                         <color key="backgroundColor" red="0.3705644011" green="0.33163394419999997" blue="0.30825664349999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -117,12 +117,6 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="3EE-2Z-pf7" secondAttribute="bottom" constant="60" id="0CX-KQ-cap"/>
-                                    <constraint firstItem="waU-Zz-mwo" firstAttribute="top" secondItem="cDP-pg-DAB" secondAttribute="top" constant="50" id="PJv-dI-NVO"/>
-                                    <constraint firstAttribute="bottom" secondItem="3EE-2Z-pf7" secondAttribute="bottom" constant="60" id="vWM-X1-0JR"/>
-                                    <constraint firstItem="3EE-2Z-pf7" firstAttribute="top" secondItem="waU-Zz-mwo" secondAttribute="bottom" constant="80" id="x75-GA-6jL"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pV0-86-K3E"/>
@@ -135,7 +129,6 @@
                             <constraint firstItem="cDP-pg-DAB" firstAttribute="top" secondItem="vE9-Ze-wZ4" secondAttribute="bottom" constant="50" id="JcJ-lG-UEN"/>
                             <constraint firstItem="vE9-Ze-wZ4" firstAttribute="leading" secondItem="pV0-86-K3E" secondAttribute="leading" constant="20" id="Kzy-CS-mau"/>
                             <constraint firstItem="pV0-86-K3E" firstAttribute="trailing" secondItem="cDP-pg-DAB" secondAttribute="trailing" constant="40" id="LRE-5j-HUo"/>
-                            <constraint firstItem="4Ut-qJ-3aP" firstAttribute="top" secondItem="pV0-86-K3E" secondAttribute="top" constant="71" id="M9l-Cc-quV"/>
                             <constraint firstItem="4Ut-qJ-3aP" firstAttribute="leading" secondItem="pV0-86-K3E" secondAttribute="leading" constant="20" id="Mnp-Lm-XwA"/>
                             <constraint firstItem="4Ut-qJ-3aP" firstAttribute="top" secondItem="pV0-86-K3E" secondAttribute="top" constant="50" id="XKE-hc-efm"/>
                             <constraint firstItem="efs-ue-xUK" firstAttribute="top" secondItem="pV0-86-K3E" secondAttribute="top" constant="80" id="XtT-v4-GL3"/>
